@@ -3,25 +3,15 @@ from translate import Translator
 from tkinter import messagebox
 import tkinter as tk
 import webbrowser 
-import json
-import tkinter as tk
 import requests
 import datetime
 import time
-
-
-
-
-
 
 
 window = Tk()
 window.title("Hosein Stephen")
 window.geometry("700x200")
 window.resizable(width=False , height=False)
-
-
-
 
 
 def translate_message():
@@ -102,7 +92,6 @@ window.config(menu=menu)
 if window.quit():
     messagebox.showerror("Error installer","You don't have any Microsoft Edge in your")
         
-
 
 def tick():
     setTime = time.strftime('%I: %M %S %p ' + '%A')
